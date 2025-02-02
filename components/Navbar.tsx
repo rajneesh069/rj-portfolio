@@ -9,7 +9,7 @@ export default function Navbar() {
           <Link href={"/"}>
             <Button variant={"outline"}>Home</Button>
           </Link>
-          <Link href={"/#projects"}>
+          <Link href={"#projects"}>
             <Button variant={"outline"}>Projects</Button>
           </Link>
         </div>

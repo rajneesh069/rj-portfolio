@@ -35,8 +35,10 @@ export default function RootLayout({
           disableTransitionOnChange
           enableSystem
         >
-          <Navbar />
-          {children}
+          <div className="flex flex-col gap-2">
+            <Navbar />
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
